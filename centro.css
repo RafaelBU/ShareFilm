@@ -1,0 +1,56 @@
+﻿#contenidoCentral{
+	width: 63%;
+	float: left;
+	text-align:center;
+}
+
+#contenidoCentralAmpliado h1, #contenidoCentral h1	{
+	color : #1589B7;
+	font-family : 'Sansita one';
+	font-size : 150%;
+	border-style : groove;
+	border-color : #1B36A2;
+	width : 80%;
+	position : relative;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	display: inline-block;
+}
+
+#tituloCentro{
+	float:left;
+	width:100%;
+	position:relative;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+/*#tituloCentro{
+	float:left;
+	width:98%;
+	position:relative;
+	margin-left : -0.7em;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}*/
+
+#contenidoCentralAmpliado #tituloOfertas{
+	float:left;
+	width:80%;
+	position:relative;
+	margin-left : 3.2em;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+#contenidoCentralAmpliado{
+	min-width: 63%;
+	max-width: 80%;
+	float: left;
+	text-align:center;
+}
+
+#contenidoCentralMaxi{
+	width: 100%;
+	float: left;
+	text-align:center;
+}

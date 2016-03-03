@@ -1,0 +1,97 @@
+﻿
+#contenedor{
+	background-color : #DDFAF3;
+}
+
+.resumenPedido {
+	margin-left : 5em;
+	margin-top : 1em;
+}
+
+/*---- CARATULAS-------*/
+
+.caratulaPeli {
+	float : left;
+}
+
+/*---- INFO PELICULAS-------*/
+
+.infoPeli {
+	float : left;
+	margin-left : 3em;
+	width : 25%;
+}
+
+.cabeceraInfo {
+	font-family : 'Pacifico';
+	color : black;
+	text-align : center;
+	margin-left : 2em;
+}
+
+.adicional {
+	font-family : 'Pacifico';
+}
+
+.estado {
+	color : green;
+}
+
+/*---- PRECIO Y CANTIDAD-------*/
+
+.infoPrecio {
+	float : left;
+	margin-left : 6em;	
+}
+
+.infoCantidad{
+	float : right;
+	margin-left : 5em;
+
+}
+
+.precioYUnidades {
+	color : #1589B7;
+	font-size : 130%;
+	margin-left : 2em;
+}
+
+/*.botonUnidades {
+	margin-left : 1em;
+	width : 2em;
+}*/
+
+.clear {
+	clear : both;
+}
+/*---- PRECIO TOTAL Y TRAMITACION-------*/
+
+.precio {
+	font-family : 'Dancing Script';
+	font-size : 250%;
+	color : #1589B7;
+}
+
+#botonCompra {
+	padding : 0.2em;
+	background-color: #1589B7;
+	font-weight : bold;
+	color : white;
+}
+
+#botonCompra:hover {
+	background-color : #066E97;
+}
+
+#carrito {
+	float : left;
+}
+
+#textoBoton {
+	float : left;
+	margin-top : 0.6em;
+}
+
+#metodos {
+	margin-top : 5em;
+}

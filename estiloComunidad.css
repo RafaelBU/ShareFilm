@@ -1,0 +1,120 @@
+﻿
+.novedad {
+	float : left;
+	border-style : groove;
+	background-color : #B6DFD5;
+	border-color : #0D588A;
+	border-radius : 10px;
+	width : 79%;
+	margin-left : 9.8%;
+	margin-top : 2em;
+	padding : 0.2em;
+}
+
+.textoNovedad  {
+	margin-right : 5em;
+	margin-top : 1.5em;
+	font-family : 'Sansita one';
+	color : #05445C;
+}
+
+.textoNovedad a{
+	text-decoration : none;
+	color : #05445C;
+}
+
+.textoNovedad a:hover{
+	color : black;
+}
+
+.avatarNovedad {
+	float : left;
+	margin-left : 1em;
+	border-radius : 50px;
+	
+}
+
+.indice{
+	float:left;
+	margin-left:36%;
+	margin-top:10%;
+}
+.indice a{
+font-weight: bold;
+font-size: 20px;
+}
+
+#gifCargar{
+	text-align: center;
+}
+
+.indice a{
+	margin-left:14px;
+}
+
+.indice button{
+	background-color: #1589B7;
+	margin-left: 14px;
+	font-weight: bold;
+	
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*------------LATERAL DERECHO -------------*/
+#botonBuscaUsuarios {
+	background-color: #1589B7;
+	color : white;
+	font-weight: bold;
+}
+
+.usuariosPopulares{
+	float : right;
+	width : 97%;
+	border-style : groove;
+	border-color : #0D588A;
+	border-radius : 10px;
+	/*background-color: #40AFDB;*/
+	margin-bottom : 0.2em;
+}
+
+.avatarPopular {
+	float : left;
+	border-radius : 50px;
+}
+
+.nickUsuario {
+	float : left;
+	margin-top : 1em;
+	margin-left : 3.5em;
+	font-family : 'Sansita one';
+	text-decoration : none;
+	color : #05445C;
+}
+
+#sinResultados{
+	font-family : 'Sansita one';
+	color : #05445C;
+}
+
+.botonañadirAmigo {
+	background-color: #1589B7;
+	color : white;
+	float : right;
+	margin-top : 1.2em;
+	margin-right : 0.8em;
+	font-weight: bold;
+}
+
+.botonañadirAmigo:hover {
+	background-color : #066E97;
+}
+
+#menuScroll2 {
+	background-color : #B6DFD5;
+	height: 50em;
+	width: 100%; 
+	overflow-y: scroll;
+}

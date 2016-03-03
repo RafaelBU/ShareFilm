@@ -1,0 +1,25 @@
+
+#contenedorDerecho{
+	max-width: 100%;
+	width: 20%;
+	float: right;
+	text-align : center;
+	
+}
+
+#contenedorDerecho h2{
+	color : #1589B7;
+	font-family : 'Sansita one';
+	font-size : 150%;
+	border-style : groove;
+	border-color : #1B36A2;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+#menuScroll {
+	background-color : #B6DFD5;
+	height: 50em;
+	width: 100%; 
+	overflow-y: scroll;
+}

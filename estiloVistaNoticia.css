@@ -1,0 +1,54 @@
+﻿/* -----Noticias---- */
+#imgNoticia{
+	width: 100%;
+}
+
+#vistaEntradilla{
+	float:left;
+	width:75%;
+	margin-bottom: 1.5em;
+}
+
+/* -------Vista Comentarios------- */
+
+#contenedorComentarios{
+	float: left;
+	background-color:transparent;
+	width:100%;
+}
+#infoComentario{
+	float:left;
+	width:95%;
+	margin-left: 1.5em;
+	
+	/*----clase----*/
+	margin-top:1em;
+}
+#comentar #estiloComentario p{
+	float:left;
+	width:95%;
+	margin-left: 1.5em;
+}
+
+#contenedorNoticias p{
+	font-family:Arial;
+}
+
+#comentar{
+	float:right;
+	width:100%;
+	margin-left: 1em;
+	margin-top: 2em;
+}
+
+.comentario{
+	/*Estilo del cajon comentario*/
+	background-color:#1A96C6;
+	border-radius: 25px;
+	box-shadow: 10px 15px 32px -2px rgba(0,0,0,0.75);
+}
+	
+textarea{
+	max-width:75%;
+	max-height:150px;
+}

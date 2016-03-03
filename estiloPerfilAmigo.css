@@ -1,0 +1,43 @@
+﻿
+#avatarAmigo {
+	float : left;
+	border-radius : 50px;
+	margin-top : 2.5em;
+	margin-bottom : 0.5em;
+	margin-left : 20em;
+}
+
+.titulosInfo {
+	color : #066E97;
+}
+
+.campos {
+	color : #1589B7;
+}
+
+#datosAmigo {
+	float : left;
+	margin-left : 6em;
+	font-family : 'Sansita one';
+	text-align : justify;
+}
+
+#nick {
+	font-size : 250%;
+	text-align : center;
+	color : #05445C;
+}
+
+#datosAmigo h3 {
+	text-align : center;
+} 
+
+#infoContacto{
+	clear : both;
+	font-family : 'Sansita one';
+	border-style : groove;
+	border-radius : 10px;
+	width : 30%;
+	margin-left : 18em;
+	margin-bottom : 0.5em;
+}

@@ -1,0 +1,200 @@
+﻿#contenedor{
+	background-color : #DDFAF3;
+}
+
+.fila {
+	float : left;
+	padding : 0.2em;
+}
+
+#clear
+{
+  clear:both;
+}
+.columna {
+	float : left;
+	padding : 0.2em;
+	width: 330px;
+	min-height: 150px; 
+	margin:0;
+	margin-left : 3em;
+}
+
+.imagenes {
+	float : left;
+	padding : 1em;
+	padding-top : 2em;
+}
+
+span.titulo {
+	font-family : 'Pacifico';
+	font-size : 85%;
+	height:100px;
+	color : black;
+}
+
+span.tachado {
+	text-decoration : line-through;
+	color : #FC6A5D;
+}
+
+span.precioNuevo {
+	border-style : groove;
+	border-color : #5B79F1;
+	color : #1589B7;
+	padding : 0.2em;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.precios {
+	font-family : 'Dancing Script';/*'Brush Script MT';*/
+	font-size : 140%;
+	/*Para la prueba con divs*/
+	float : left;
+	padding-top:2em;
+	padding-bottom:1em;
+	width:50%;
+	text-align:center;
+}
+
+.precios a{
+	text-decoration : none;
+}
+
+.precios .tachado,.precioNuevo{
+	float : left;
+	margin-left : 0.8em;
+}
+
+/*
+#contenidoTienda {
+	float : left;
+	width : 85%;
+}
+
+#contenidoTiendaPrincipal {
+	float : left;
+	width : 85%;
+}
+
+#contenidoTiendaPrincipal h1 {
+	margin-left : 3em;
+}
+*/
+.indice{
+	float:left;
+	margin-left:36%;
+	margin-top:10%;
+}
+.indice a{
+font-weight: bold;
+font-size: 20px;
+}
+
+#gifCargar{
+	text-align: center;
+}
+
+.indice a{
+	margin-left:14px;
+}
+
+.indice button{
+	background-color: #1589B7;
+	margin-left: 14px;
+	font-weight: bold;
+	
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#cestaCompra {
+	float : left;
+	width : 15%;
+	text-align : center;
+}
+
+#botonCesta  {
+	background-color: #1589B7;
+	font-family : 'Sansita one';
+	color : white;
+	width : 80%;
+}
+
+#botonCesta:hover {
+	background-color : #066E97;
+}
+
+/*
+h1{
+	text-align:center;
+	color : #1589B7;
+	font-family : 'Sansita one';
+	font-size : 150%;
+	border-style : groove;
+	border-color : #1B36A2;
+	width : 80%;
+	position : relative;
+	max-width: 100%;
+	margin-top: 10pt;
+	display: inline-block;
+}
+
+h2{
+	text-align:center;
+	color : #1589B7;
+	font-family : 'Sansita one';
+	font-size : 150%;
+	border-style : groove;
+	border-color : #1B36A2;
+	width : 80%;
+	padding-left:10%
+	position : relative;
+	float:left ;
+	max-width: 100%;
+	margin-top: 10pt;
+	margin-left : 0.5em;
+}
+*/
+#boton{
+	font-size: 15pt;
+	font-family: 'Arial'; 	 
+	border-style : double;
+	border-color : transparent;
+	padding : 0.9em;
+	background-color : transparent;
+	color : black;
+}
+
+#carrito {
+	float : left;
+}
+
+#boton:hover{
+	border-style : double;
+	border-color : #1589B7;
+	padding : 0.5em;
+	margin: 0.4em;
+	background-color : #1589B7;
+	color : white;
+}
+
+#botonCompra {	 
+	padding : 0.2em;
+	background-color: #1589B7;
+	font-weight : bold;
+	color : white;
+	width: 185px
+}
+
+#botonCompra:hover {
+	background-color : #066E97;
+}
+
+#textoBoton {
+	float : left;
+	margin-top : 0.6em;
+}

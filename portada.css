@@ -1,0 +1,75 @@
+﻿
+/*------------------CONTENEDOR---------------- */
+
+#contenedor {	
+	background-color : #DDFAF3;
+}
+
+.fila {
+	float : left;
+	padding : 0.2em;
+}
+#clear
+{
+  clear:both;
+}
+.columna {
+	float : left;
+	padding : 0.2em;
+	min-height: 250px; 
+	margin-left : 3em;
+}
+.imagenes {
+	float : left;
+	padding : 1em;
+	padding-top : 2em;
+}
+
+span.tachado {
+	text-decoration : line-through;
+	color : #FC6A5D;
+}
+
+span.precioNuevo {
+	border-style : groove;
+	border-color : #5B79F1;
+	color : #1589B7;
+	padding : 0.2em;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.precios {
+	font-family : 'Dancing Script';/*'Brush Script MT';*/
+	font-size : 140%;
+	/*Para la prueba con divs*/
+	float : left;
+	padding-top:2em;
+	padding-bottom:1em;
+	width:50%;
+	text-align:center;
+}
+
+.precios a{
+	text-decoration : none;
+}
+
+.precios .tachado,.precioNuevo{
+	float : left;
+	margin-left : 0.8em;
+}
+
+
+/*------------------MENU LOGIN---------------- */
+/*
+#contenido{
+	float : left;
+	width : 20%;
+	text-align : center;
+	
+}
+*/
+
+form input {
+	padding: 0.2em;
+}

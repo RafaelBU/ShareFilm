@@ -1,0 +1,59 @@
+﻿/*-----------------------CABECERA------------------------*/
+
+#contenedor {	
+	background-color : #DDFAF3;
+}
+
+#cabecera {
+	background-color : #1589B7;/*#4762B0;*/
+	border-style : groove;
+	padding : 0.5em;
+
+}
+
+#logo{
+	float:left;
+}
+
+#cabecera h3 {
+	font-family : 'Sansita one';
+}
+
+#cabecera ul li{
+	display : inline;
+	/*border-style : double;
+	border-color : black;*/
+	padding : 0.9em;
+	margin : 0.8em;
+}
+
+#cabecera ul li a{
+	text-decoration : none;
+	color : white;
+	padding : 0.9em;
+
+}
+
+#cabecera ul li a:hover{
+	background-color : black;
+}
+
+
+#buscador {
+	text-align : right;
+}
+
+#botonBusca {
+	color : white;
+	background-color : black;
+}
+
+
+/*-----------------------PIE------------------------*/
+
+#pie {
+	clear : both;
+	text-align : center;
+	background-color: #1589B7;
+	font-weight : bold;
+}
